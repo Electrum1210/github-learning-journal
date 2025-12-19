@@ -1,2 +1,24 @@
-# github-learning-journal
-Journal and roadmap for my GitHub + GitHub Desktop learning as a non-developer manager, based on DeDaydreamer/thedaydreamverse-site.
+# \# GitHub Learning Journal
+
+# 
+
+# Journal and roadmap for my GitHub + GitHub Desktop learning as a non-developer manager, based on DeDaydreamer/thedaydreamverse-site.
+
+# 
+
+# \## Roadmap
+
+# 
+
+# (Roadmap will live in ROADMAP.md)
+
+# 
+
+# \## Progress
+
+# 
+
+# \- Last completed: Setup in progress (before Lesson 1)
+
+# 
+
