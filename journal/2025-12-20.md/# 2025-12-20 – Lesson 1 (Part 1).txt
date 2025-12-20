@@ -1,0 +1,25 @@
+# 2025-12-20 – Lesson 1 (Part 1)
+
+## What I did
+
+- Confirmed upstream vs fork using:
+  - DeDaydreamer/thedaydreamverse-site (upstream)
+  - Electrum1210/thedaydreamverse-site (my fork)
+- Opened my fork in GitHub Desktop and local folder.
+- Added a manager note in Markdown to my fork (README or MANAGER-NOTES.md).
+- Committed and pushed the change using GitHub Desktop.
+
+## What I learned (manager view)
+
+- Upstream = original project owned by Aleks; my fork = my sandbox copy that can diverge and later sync back.
+- A commit is a snapshot of decisions, not just code edits.
+- Markdown is the standard way to document context and intent in GitHub READMEs and notes.
+
+## Questions / things to ask Aleks
+
+- Are there any existing docs in thedaydreamverse-site that describe deployment and environments?
+- Is there a preferred place to put manager notes (README vs a dedicated docs folder)?
+
+## Last completed
+
+- Last completed: Week 1, Lesson 1 – First manager note in thedaydreamverse-site fork
