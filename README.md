@@ -18,7 +18,7 @@
 
 # 
 
-# \- Last completed: Setup complete (before Lesson 1 – roadmap and Markdown plan added)
+# \- Last completed: Week 1, Lesson 1 – Upstream vs fork and first Markdown change in README
 
 
 
