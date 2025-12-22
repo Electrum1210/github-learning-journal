@@ -224,10 +224,21 @@
 
 ## Repo map – thedaydreamverse-site (manager view)
 
-- Core / app code:
-  - [Functions, tests,.]
-- Configuration and build:
-  - [package.json, .github.]
-- Documentation and communication:
-  - [README.md, about, articles, contact, index, posts, sitemap, robots.]
+Core / app code
+
+functions/ – likely where the actual site/app behaviour lives.
+
+tests/ – code that checks the behaviour of functions/ (quality and safety net).
+
+Configuration and build
+
+package.json – declares dependencies, scripts, and basic metadata for how the project runs/builds.
+
+.github/ – holds automation and workflow config (CI, issue templates, etc.), if present.
+
+Documentation and communication
+
+README.md – main entry point for understanding what this project is and how to work with it.
+
+about, articles, contact, index, posts, sitemap, robots – all look like content or content‑layout parts of the site and, from a manager view, are communication surface with users and search engines.
 
