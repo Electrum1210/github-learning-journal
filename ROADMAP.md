@@ -242,3 +242,18 @@ README.md – main entry point for understanding what this project is and how to
 
 about, articles, contact, index, posts, sitemap, robots – all look like content or content‑layout parts of the site and, from a manager view, are communication surface with users and search engines.
 
+## What to look for in README and key config (manager view)
+
+In `README.md`, I want to quickly see:
+- What this project is (1–3 sentences, plain language).
+- How to run it locally (basic command or steps).
+- How it is deployed or used in production (at least a short note).
+- Who owns it / who to ask when something breaks.
+- Any major risks or constraints (environments, data sensitivity, external services).
+
+In `package.json` or similar config, I look for:
+- `"scripts"` that hint at how to run, build, test, and deploy.
+- Dependencies that might signal big external commitments (frameworks, cloud SDKs, etc.).
+- Signs of testing (`"test"` scripts) as a basic quality signal.
+- Anything that looks dangerous to change without a plan (e.g. deploy-related scripts).
+
