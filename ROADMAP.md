@@ -270,5 +270,21 @@ In `package.json` or similar config, I look for:
 | [No other branches]
 | [No other tags/releases]
 
+## Pull request checklist (manager view)
+
+Good PRs have:
+- **Clear title** with type prefix (docs:, feat:, fix:) + short summary.
+- **Structured description**:
+  - Context: Why this change?
+  - Changes: What files/scope?
+  - Risk: Blast radius?
+- **Narrow scope** (ideally 1 clear decision).
+- **Draft status** for work-in-progress.
+
+My draft PR example: [https://github.com/DeDaydreamer/thedaydreamverse-site/pull/1]
+
+
+
+
 
 
