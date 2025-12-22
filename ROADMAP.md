@@ -259,7 +259,7 @@ In `package.json` or similar config, I look for:
 
 ### thedaydreamverse-site – current signals
 
-- README: [Project is explained comprehensively and clearly and has all checklist items clearly explained and laid out].
-- package.json (or equivalent): [Noted script and test sections, no major dependencies.]
+- README: [Project purpose and usage are explained clearly; run/deploy, ownership, and basic risks are all covered well enough for a manager to understand the system at a glance.]
+- package.json: [Run and test scripts are present, giving a clear way to start and validate the app; dependencies look modest, with no obvious high‑risk platform commitments at this stage].
 
 
