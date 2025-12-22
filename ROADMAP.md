@@ -286,7 +286,7 @@ My draft PR example: [https://github.com/DeDaydreamer/thedaydreamverse-site/pull
 ## Repo map – thedaydreamverse-site (UPDATED Week 2)
 
 **High manager attention (risky changes):**
-- `functions/` – behaviour logic; changes here need clear explanation [all listed are one file - api]
+- `functions/` – behaviour logic; changes here need clear explanation [all listed are one folder - api]
 
 **Medium attention (config/deploy):**
 - `package.json` – run/build scripts
