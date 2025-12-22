@@ -283,6 +283,18 @@ Good PRs have:
 
 My draft PR example: [https://github.com/DeDaydreamer/thedaydreamverse-site/pull/1]
 
+## Repo map – thedaydreamverse-site (UPDATED Week 2)
+
+**High manager attention (risky changes):**
+- `functions/` – behaviour logic; changes here need clear explanation [all listed are one file - api]
+
+**Medium attention (config/deploy):**
+- `package.json` – run/build scripts
+- `.github/` – automation/workflows (not listed here)
+
+**Low attention (content/docs):**
+- `posts/`, `about/`, etc. – content files
+- `README.md` – project overview
 
 
 
