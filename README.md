@@ -18,7 +18,7 @@
 
 # 
 
-# \- Last completed: Week 1, Lesson 7 – Draft PR created and checklist added
+# \- Last completed: Week 2, Lesson 1 – Folder risk zones mapped
 
 
 
