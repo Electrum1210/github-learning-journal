@@ -308,5 +308,14 @@ My draft PR example: [https://github.com/DeDaydreamer/thedaydreamverse-site/pull
 | build: pull private vault content during deploy                    | tools/pull-vault.sh                          | High       | Build/deploy behaviour; needs strong review/testing   |
 | Initial commit: thedaydreamverse site (vault content excluded)     | ~36 files (.config, api, etc.)              | High       | Many files incl. config/api; foundational, broad risk |
 
+## Safe vs risky changes (manager view) – updated with commit examples
+
+| Type of change                                 | Why it feels safe or risky (manager view)           |
+|-----------------------------------------------|-----------------------------------------------------|
+| Tiny README wording tweak                      | Low blast radius, easy to review, easy to roll back |
+| New feature touching many files                | Higher risk: more moving parts and dependencies     |
+| Config change for production or deploy script  | High risk: can break deployment or environments     |
+| Cosmetic UI or content text change only        | Usually safe, but still needs clear commit message  |
+| Single function/api behaviour change           | High risk: behaviour changes; requires strong review |
 
 
