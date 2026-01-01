@@ -18,7 +18,9 @@
 
 # 
 
-# \- Last completed: Week 2, Lesson 2 – Commit history timeline
+# \- Last completed: Week 2, Lesson 3 – Desktop history and risk refinement
+
+
 
 
 
