@@ -18,7 +18,9 @@
 
 # 
 
-# \- Last completed: Week 2, Lesson 3 – Desktop history and risk refinement
+# \- Last completed: Week 3, Lesson 1 – Fork vs upstream divergence
+
+
 
 
 
