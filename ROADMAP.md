@@ -369,3 +369,44 @@ Example (for PR #1):
 - Question: Will this note be relevant to other contributors?
 - Decision: Approve once wording is confirmed.
 
+## Week 4 – Repo quality checklist (manager view)
+
+For any repo (including thedaydreamverse-site), I will look at:
+
+**Structure**
+- Clear top-level folders (core code, config, docs, content).
+- A README that explains purpose, how to run, and who owns it.
+
+**History**
+- Reasonable commit sizes and messages (not all huge, not all “fix stuff”).
+- Mix of content/config/behaviour changes that match the project’s goals.
+
+**Collaboration**
+- Issues and PRs used (or explicitly not needed) and kept up to date.
+- Draft PRs for work in progress; clear, reviewed PRs for changes to main.
+
+**Releases / stability**
+- Tags or releases marking shipped points (if production).
+- If none: treat project as early/experimental.
+
+Initial notes for thedaydreamverse-site:
+- README explains the project and its goal in clear, simple language.
+
+- The live website link is prominently provided near the start.
+
+- The contents of the repository are described so a reader understands what lives where.
+
+- Deployment and usage instructions are documented clearly enough to follow.
+
+- Ownership and who to contact for issues are explicitly stated.
+
+- No major risks or constraints are called out at this development stage.
+
+- The Issues tab currently shows no open issues.
+
+- There is one pull request, which is my draft manager learning note.
+
+- No automated workflows or Actions are visible for this repository.
+
+- No immediate actions are required; the draft PR remains open for future review.
+
