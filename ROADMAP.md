@@ -329,3 +329,22 @@ Manager interpretation:
 - Ahead commits = decisions made in my sandbox that are not yet in the source-of-truth.
 - Even for docs-only changes, a PR should clearly explain Context / Changes / Risk before merge.
 
+## Week 3 – PR review checklist (manager view)
+
+For each pull request, I will check:
+
+- **Title**
+  - Uses a clear prefix (feat:, fix:, docs:, chore:) and plain-language summary.
+- **Context**
+  - Explains why the change is needed (problem, goal, or background).
+- **Changes**
+  - Lists main files/areas touched and the scope (small doc tweak vs many modules).
+- **Risk**
+  - States expected impact and risk level (low/medium/high) in non-technical terms.
+  - Mentions if tests, checks, or manual verification were done.
+- **Fit with repo risk map**
+  - Notes whether the change is in high-risk areas (functions/api, deploy scripts) or low-risk (content/docs).
+
+Example PR: https://github.com/DeDaydreamer/thedaydreamverse-site/pull/1
+
+
