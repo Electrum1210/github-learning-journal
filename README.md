@@ -18,7 +18,9 @@
 
 # 
 
-# \- Last completed: Week 3, Lesson 2 – PR as decision brief
+# \- Last completed: Week 3, Lesson 3 – Manager feedback on PRs
+
+
 
 
 
