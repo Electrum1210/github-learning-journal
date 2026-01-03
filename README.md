@@ -18,7 +18,9 @@
 
 # 
 
-# \- Last completed: Week 4, Lesson 1 – Repo quality signals
+# \- Last completed: Week 4, Lesson 2 – Review guide created
+
+
 
 
 
