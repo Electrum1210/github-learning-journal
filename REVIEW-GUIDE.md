@@ -1,5 +1,15 @@
 # Repository Review Guide (Manager View)
 
+## Repo Summary Dashboard
+
+| Repo | Stage | Risk Profile | Deployment | Collaboration | Questions for Aleks |
+|------|-------|--------------|------------|---------------|-------------------|
+| thedaydreamverse-site | Live (experimental) | Low (good structure/commits) | Manual | Minimal (1 draft PR) | Fork divergence threshold? |
+| ddpro-joer-businesscard-site | early production | low (no high-risk areas) | manual (file:// / Live Server) | none (solo prototype) | deployment automation plans? |
+
+*Last updated: 2026-01-04*
+
+
 ## 1\. Repo structure
 
 * \[ ] Clear top-level folders (core code, config, docs, content).
