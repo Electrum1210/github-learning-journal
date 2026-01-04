@@ -40,55 +40,30 @@
 * No open issues; one draft PR (manager learning note).
 * GitHub Releases and Actions workflows are not configured; the site is live, but deployments and versioning are managed outside GitHub’s releases/automation features.
 
+## Review 2 – ddpro-joer-businesscard-site (Electrum1210)
 
+**Repo**: https://github.com/Electrum1210/ddpro-joer-businesscard-site
 
-\## Review 2 – ddpro-joer-businesscard-site (Electrum1210)
+### 1. Repo structure
+- **Risk map complete**: Low-risk HTML content pages, medium-risk assets (css/js/img), manifest/robots.txt; **no high-risk areas identified**.
+- **README**: Clear purpose, deployment instructions, ownership documented.
+- **Structure**: Simple static site pattern, easy to understand at a glance.
 
+### 2. History and commits
+- **Single-day development**: All commits from initial template creation, appropriately scoped for rapid prototype.
+- **Messages clear**: Each commit explains its purpose (content, styling, assets).
 
+### 3. Collaboration
+- **No issues/PRs**: Expected for early solo prototype; collaboration tooling not yet needed.
 
-\*\*Repo\*\*: https://github.com/Electrum1210/ddpro-joer-businesscard-site
+### 4. Releases/stability
+- **No GitHub releases/tags**: Versioning via commits only.
+- **Deployment**: Manual preview via `file://` or VS Code Live Server (no automated build/deploy).
+- **Early production**: Static site prototype; live hosting likely manual upload to hosting provider.
 
+### Overall manager assessment
+Healthy early-stage business card site prototype. **Manual/static deployment workflow** (file:// or Live Server). Low technical risk, clear documentation. Monitor assets/js changes; consider automated deployment for future scaling.
 
-
-\### 1. Repo structure
-
-\- \*\*Risk map complete\*\*: Low-risk HTML content pages, medium-risk assets (css/js/img), manifest/robots.txt; \*\*no high-risk areas identified\*\*.
-
-\- \*\*README\*\*: Clear purpose, deployment instructions, ownership documented.
-
-\- \*\*Structure\*\*: Simple static site pattern, easy to understand at a glance.
-
-
-
-\### 2. History and commits
-
-\- \*\*Single-day development\*\*: All commits from initial template creation, appropriately scoped for rapid prototype.
-
-\- \*\*Messages clear\*\*: Each commit explains its purpose (content, styling, assets).
-
-
-
-\### 3. Collaboration
-
-\- \*\*No issues/PRs\*\*: Expected for early solo prototype; collaboration tooling not yet needed.
-
-
-
-\### 4. Releases/stability
-
-\- \*\*No GitHub releases/tags\*\*: Versioning via commits only.
-
-\- \*\*Deployment\*\*: Manual preview via `file://` or VS Code Live Server (no automated build/deploy).
-
-\- \*\*Early production\*\*: Static site prototype; live hosting likely manual upload to hosting provider.
-
-
-
-\### Overall manager assessment
-
-Healthy early-stage business card site prototype. \*\*Manual/static deployment workflow\*\* (file:// or Live Server). Low technical risk, clear documentation. Monitor assets/js changes; consider automated deployment for future scaling.
-
-&nbsp; 
 
 
 
