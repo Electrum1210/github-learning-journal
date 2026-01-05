@@ -1,18 +1,12 @@
-# \# Learning Roadmap
+# Learning Roadmap
 
-# 
+Journal and roadmap for my GitHub + GitHub Desktop learning as a non-developer manager, based on DeDaydreamer/thedaydreamverse-site.
 
-# Journal and roadmap for my GitHub + GitHub Desktop learning as a non-developer manager, based on DeDaydreamer/thedaydreamverse-site.
+---
 
-# 
+## Week 1 – Foundations + Markdown basics
 
-# ---
-
-# 
-
-# \## Week 1 – Foundations + Markdown basics
-
-# ## Safe vs risky changes (manager view)
+### Safe vs risky changes (manager view)
 
 | Type of change                     | Why it feels safe or risky (manager view)           |
 |------------------------------------|-----------------------------------------------------|
@@ -21,226 +15,120 @@
 | Config change for production       | Potentially high risk: can break deployment         |
 | Cosmetic UI text change only       | Usually safe, but still needs clear commit message  |
 
+**Focus:**
+- Get comfortable with GitHub in the browser and GitHub Desktop.
+- Understand forks, clones, and commits as "snapshots with explanations".
+- Use Markdown for simple, clear text in this journal.
 
-# Focus:
+**Git / GitHub goals:**
+- Star, Watch, and Fork DeDaydreamer/thedaydreamverse-site.
+- Clone Electrum1210/thedaydreamverse-site and github-learning-journal with GitHub Desktop.
+- Make small non-code changes (markdown edits, simple text files), commit, and push.
 
-# \- Get comfortable with GitHub in the browser and GitHub Desktop.
+**Markdown goals:**
+- Use `#` and `##` headings in README.md and ROADMAP.md.
+- Write paragraphs with blank lines between them.
+- Create bullet lists with `-` and numbered lists with `1.`.
+- Use **bold** and *italic* for emphasis with `**` and `*`.
 
-# \- Understand forks, clones, and commits as "snapshots with explanations".
+**Manager angle:**
+- Treat Markdown as the layout language for decisions, notes, and learning logs, not as code.
 
-# \- Use Markdown for simple, clear text in this journal.
+---
 
-# 
+## Week 2 – Structure, history, and Markdown for organization
 
-# Git / GitHub goals:
+**Focus:**
+- Read the folder/file structure of DeDaydreamer/thedaydreamverse-site and your fork.
+- Open commit history and see it as a sequence of decisions and risks.
 
-# \- Star, Watch, and Fork DeDaydreamer/thedaydreamverse-site.
+**Git / GitHub goals:**
+- View commit history for:
+  - DeDaydreamer/thedaydreamverse-site (upstream).
+  - Electrum1210/thedaydreamverse-site (your fork).
+- Open individual commits and read messages for clarity and scope.
+- Notice patterns like "feat:", "fix:", "chore:", "docs:" if present.
 
-# \- Clone Electrum1210/thedaydreamverse-site and github-learning-journal with GitHub Desktop.
+**Markdown goals:**
+- Improve ROADMAP.md using:
+  - Nested lists to break down lessons.
+  - Links: `[text](URL)` to reference your fork and important pages.
+  - A simple table (e.g., safe vs risky changes from a manager's view).
 
-# \- Make small non-code changes (markdown edits, simple text files), commit, and push.
+**Manager angle:**
+- Connect clear structure in files and docs to clear structure in the organization.
+- Use Markdown structure to reflect how you group and prioritize work.
 
-# 
+---
 
-# Markdown goals:
+## Week 3 – Forks, upstream, and Markdown in communication
 
-# \- Use `#` and `##` headings in README.md and ROADMAP.md.
+**Focus:**
+- Understand forks vs upstream and how changes flow back using pull requests.
+- Think about changes as proposals and conversations, not just code edits.
 
-# \- Write paragraphs with blank lines between them.
+**Git / GitHub goals:**
+- Compare your fork's branches/commits to upstream for divergence.
+- Learn the concept of a pull request (PR) as "a formal proposal to merge changes".
+- Practice opening a draft PR from your fork to your fork (no real production impact).
 
-# \- Create bullet lists with `-` and numbered lists with `1.`.
+**Markdown goals:**
+- Draft PR descriptions using:
+  - Headings like "Context", "Changes", "Risk".
+  - Bullet lists for scope and impact.
+  - Task lists with `- [ ]` as lightweight checklists.
 
-# \- Use \*\*bold\*\* and \*italic\* for emphasis with `\\\*\\\*` and `\\\*`.
+**Manager angle:**
+- Use Markdown in PRs and issues to communicate expectations, scope, and risk clearly.
+- Treat PR descriptions as decision briefs a stakeholder can quickly understand.
 
-# 
+---
 
-# Manager angle:
+## Week 4+ – Quality signals, reviews, and Markdown playbook
 
-# \- Treat Markdown as the layout language for decisions, notes, and learning logs, not as code.
+**Focus:**
+- Spot red flags and good signals in repos, commits, and PRs.
+- Develop your own manager review checklist.
 
-# 
+**Git / GitHub goals:**
+- Inspect branches, tags, releases (if any) in thedaydreamverse-site.
+- Identify whether releases or tags exist and what they might represent.
+- Review real commits and (later) PRs like a manager: scope, risk, communication quality.
 
-# ---
+**Markdown goals:**
+- Create CHECKLIST.md or REVIEW-GUIDE.md in this journal with:
+  - Sections for "Repo structure", "Commit messages", "Release readiness", etc.
+  - Checklists and tables for "good signals vs red flags".
+  - Links to specific commits or PRs as examples.
 
-# 
+**Manager angle:**
+- Use Markdown documents as your persistent decision records and review templates.
+- Aim for communication that another manager could pick up and use without you.
 
-# \## Week 2 – Structure, history, and Markdown for organization
+---
 
-# 
+## Progress Log Pattern
 
-# Focus:
+Use this structure in separate journal files (for example, `/journal/2025-01-15.md`):
 
-# \- Read the folder/file structure of DeDaydreamer/thedaydreamverse-site and your fork.
-
-# \- Open commit history and see it as a sequence of decisions and risks.
-
-# 
-
-# Git / GitHub goals:
-
-# \- View commit history for:
-
-#   - DeDaydreamer/thedaydreamverse-site (upstream).
-
-#   - Electrum1210/thedaydreamverse-site (your fork).
-
-# \- Open individual commits and read messages for clarity and scope.
-
-# \- Notice patterns like "feat:", "fix:", "chore:", "docs:" if present.
-
-# 
-
-# Markdown goals:
-
-# \- Improve ROADMAP.md using:
-
-#   - Nested lists to break down lessons.
-
-#   - Links: `\\\[text](URL)` to reference your fork and important pages.
-
-#   - A simple table (e.g., safe vs risky changes from a manager’s view).
-
-# 
-
-# Manager angle:
-
-# \- Connect clear structure in files and docs to clear structure in the organization.
-
-# \- Use Markdown structure to reflect how you group and prioritize work.
-
-# 
-
-# ---
-
-# 
-
-# \## Week 3 – Forks, upstream, and Markdown in communication
-
-# 
-
-# Focus:
-
-# \- Understand forks vs upstream and how changes flow back using pull requests.
-
-# \- Think about changes as proposals and conversations, not just code edits.
-
-# 
-
-# Git / GitHub goals:
-
-# \- Compare your fork’s branches/commits to upstream for divergence.
-
-# \- Learn the concept of a pull request (PR) as "a formal proposal to merge changes".
-
-# \- Practice opening a draft PR from your fork to your fork (no real production impact).
-
-# 
-
-# Markdown goals:
-
-# \- Draft PR descriptions using:
-
-#   - Headings like "Context", "Changes", "Risk".
-
-#   - Bullet lists for scope and impact.
-
-#   - Task lists with `- \\\[ ]` as lightweight checklists.
-
-# 
-
-# Manager angle:
-
-# \- Use Markdown in PRs and issues to communicate expectations, scope, and risk clearly.
-
-# \- Treat PR descriptions as decision briefs a stakeholder can quickly understand.
-
-# 
-
-# ---
-
-# 
-
-# \## Week 4+ – Quality signals, reviews, and Markdown playbook
-
-# 
-
-# Focus:
-
-# \- Spot red flags and good signals in repos, commits, and PRs.
-
-# \- Develop your own manager review checklist.
-
-# 
-
-# Git / GitHub goals:
-
-# \- Inspect branches, tags, releases (if any) in thedaydreamverse-site.
-
-# \- Identify whether releases or tags exist and what they might represent.
-
-# \- Review real commits and (later) PRs like a manager: scope, risk, communication quality.
-
-# 
-
-# Markdown goals:
-
-# \- Create CHECKLIST.md or REVIEW-GUIDE.md in this journal with:
-
-#   - Sections for "Repo structure", "Commit messages", "Release readiness", etc.
-
-#   - Checklists and tables for "good signals vs red flags".
-
-#   - Links to specific commits or PRs as examples.
-
-# 
-
-# Manager angle:
-
-# \- Use Markdown documents as your persistent decision records and review templates.
-
-# \- Aim for communication that another manager could pick up and use without you.
-
-# 
-
-# ---
-
-# 
-
-# \## Progress Log Pattern
-
-# 
-
-# Use this structure in separate journal files (for example, /journal/2025-01-15.md):
-
-# 
-
-# \- What I did today (specific actions).
-
-# \- What I learned (in manager language).
-
-# \- Questions to ask Aleks or another developer.
-
-# \- Last completed marker to update in README.md or at the top of ROADMAP.md.
+- What I did today (specific actions).
+- What I learned (in manager language).
+- Questions to ask Aleks or another developer.
+- Last completed marker to update in README.md or at the top of ROADMAP.md.
 
 ## Repo map – thedaydreamverse-site (manager view)
 
-Core / app code
+**Core / app code**
+- `functions/` – likely where the actual site/app behaviour lives.
+- `tests/` – code that checks the behaviour of functions/ (quality and safety net).
 
-functions/ – likely where the actual site/app behaviour lives.
+**Configuration and build**
+- `package.json` – declares dependencies, scripts, and basic metadata for how the project runs/builds.
+- `.github/` – holds automation and workflow config (CI, issue templates, etc.), if present.
 
-tests/ – code that checks the behaviour of functions/ (quality and safety net).
-
-Configuration and build
-
-package.json – declares dependencies, scripts, and basic metadata for how the project runs/builds.
-
-.github/ – holds automation and workflow config (CI, issue templates, etc.), if present.
-
-Documentation and communication
-
-README.md – main entry point for understanding what this project is and how to work with it.
-
-about, articles, contact, index, posts, sitemap, robots – all look like content or content‑layout parts of the site and, from a manager view, are communication surface with users and search engines.
+**Documentation and communication**
+- `README.md` – main entry point for understanding what this project is and how to work with it.
+- `about`, `articles`, `contact`, `index`, `posts`, `sitemap`, `robots` – all look like content or content-layout parts of the site and, from a manager view, are communication surface with users and search engines.
 
 ## What to look for in README and key config (manager view)
 
@@ -259,16 +147,16 @@ In `package.json` or similar config, I look for:
 
 ### thedaydreamverse-site – current signals
 
-- README: [Project purpose and usage are explained clearly; run/deploy, ownership, and basic risks are all covered well enough for a manager to understand the system at a glance.]
-- package.json: [Run and test scripts are present, giving a clear way to start and validate the app; dependencies look modest, with no obvious high‑risk platform commitments at this stage].
+- **README**: Project purpose and usage are explained clearly; run/deploy, ownership, and basic risks are all covered well enough for a manager to understand the system at a glance.
+- **package.json**: Run and test scripts are present, giving a clear way to start and validate the app; dependencies look modest, with no obvious high-risk platform commitments at this stage.
 
 ## Branches/tags/releases – risk markers (manager view)
 
-| Name | Type | What decision it represents | Risk level (manager view) |
-|------|------|-----------------------------|---------------------------|
-| main | branch | Current source of truth | Low (if tested) |
-| [No other branches]
-| [No other tags/releases]
+| Name       | Type   | What decision it represents | Risk level (manager view) |
+|------------|--------|-----------------------------|---------------------------|
+| main       | branch | Current source of truth     | Low (if tested)           |
+| [No other branches] | | | |
+| [No other tags/releases] | | | |
 
 ## Pull request checklist (manager view)
 
@@ -281,7 +169,7 @@ Good PRs have:
 - **Narrow scope** (ideally 1 clear decision).
 - **Draft status** for work-in-progress.
 
-My draft PR example: [https://github.com/DeDaydreamer/thedaydreamverse-site/pull/1]
+My draft PR example: [https://github.com/DeDaydreamer/thedaydreamverse-site/pull/1](https://github.com/DeDaydreamer/thedaydreamverse-site/pull/1)
 
 ## Repo map – thedaydreamverse-site (UPDATED Week 2)
 
@@ -320,12 +208,12 @@ My draft PR example: [https://github.com/DeDaydreamer/thedaydreamverse-site/pull
 
 ## Week 3 Lesson 1 – Fork vs upstream divergence
 
-Current state:
+**Current state:**
 - My fork (Electrum1210/thedaydreamverse-site) is 1 commit ahead of upstream main.
 - My additional commit(s) are:
   - Docs: add manager learning note to README.
 
-Manager interpretation:
+**Manager interpretation:**
 - Ahead commits = decisions made in my sandbox that are not yet in the source-of-truth.
 - Even for docs-only changes, a PR should clearly explain Context / Changes / Risk before merge.
 
@@ -345,26 +233,26 @@ For each pull request, I will check:
 - **Fit with repo risk map**
   - Notes whether the change is in high-risk areas (functions/api, deploy scripts) or low-risk (content/docs).
 
-Example PR: https://github.com/DeDaydreamer/thedaydreamverse-site/pull/1
+Example PR: [https://github.com/DeDaydreamer/thedaydreamverse-site/pull/1](https://github.com/DeDaydreamer/thedaydreamverse-site/pull/1)
 
 ## Week 3 – PR feedback template (manager voice)
 
 When reviewing a PR, I will aim to comment like this:
 
 **1. Summary (what I see)**
-- “This PR changes [area/files] and appears [low/medium/high] risk because [reason].”
+- "This PR changes [area/files] and appears [low/medium/high] risk because [reason]."
 
 **2. Questions (clarity and risk)**
-- “Can you clarify [context/impact]?”
-- “What testing or checks have you done?”
-- “What could go wrong if we merge this as-is?”
+- "Can you clarify [context/impact]?"
+- "What testing or checks have you done?"
+- "What could go wrong if we merge this as-is?"
 
 **3. Decision**
-- Approve: “I’m comfortable approving this because [reason: scope, tests, low risk].”
-- Request changes: “Before approving, I need [specific change or clarification].”
-- Block (rare): “I can’t approve this in its current form because [major risk/uncertainty].”
+- Approve: "I'm comfortable approving this because [reason: scope, tests, low risk]."
+- Request changes: "Before approving, I need [specific change or clarification]."
+- Block (rare): "I can't approve this in its current form because [major risk/uncertainty]."
 
-Example (for PR #1):
+**Example (for PR #1):**
 - Summary: Docs-only change to README; very low risk.
 - Question: Will this note be relevant to other contributors?
 - Decision: Approve once wording is confirmed.
@@ -378,8 +266,8 @@ For any repo (including thedaydreamverse-site), I will look at:
 - A README that explains purpose, how to run, and who owns it.
 
 **History**
-- Reasonable commit sizes and messages (not all huge, not all “fix stuff”).
-- Mix of content/config/behaviour changes that match the project’s goals.
+- Reasonable commit sizes and messages (not all huge, not all "fix stuff").
+- Mix of content/config/behaviour changes that match the project's goals.
 
 **Collaboration**
 - Issues and PRs used (or explicitly not needed) and kept up to date.
@@ -389,24 +277,14 @@ For any repo (including thedaydreamverse-site), I will look at:
 - Tags or releases marking shipped points (if production).
 - If none: treat project as early/experimental.
 
-Initial notes for thedaydreamverse-site:
+**Initial notes for thedaydreamverse-site:**
 - README explains the project and its goal in clear, simple language.
-
 - The live website link is prominently provided near the start.
-
 - The contents of the repository are described so a reader understands what lives where.
-
 - Deployment and usage instructions are documented clearly enough to follow.
-
 - Ownership and who to contact for issues are explicitly stated.
-
 - No major risks or constraints are called out at this development stage.
-
 - The Issues tab currently shows no open issues.
-
 - There is one pull request, which is my draft manager learning note.
-
 - No automated workflows or Actions are visible for this repository.
-
 - No immediate actions are required; the draft PR remains open for future review.
-
