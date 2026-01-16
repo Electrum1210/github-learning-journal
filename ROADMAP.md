@@ -288,3 +288,51 @@ For any repo (including thedaydreamverse-site), I will look at:
 - There is one pull request, which is my draft manager learning note.
 - No automated workflows or Actions are visible for this repository.
 - No immediate actions are required; the draft PR remains open for future review.
+
+---
+
+## Phase 2: Max AI Integration (Weeks 5-6)
+
+**Timeline**: Jan 17-30, 2026  
+**Status**: 🔄 IN PROGRESS
+
+### Training Objectives
+Enable Joe to leverage Max for operational tasks, GitHub-Notion workflows, and technical decision support without deep coding skills.
+
+### Week 5: Foundations + Workflows
+- Max capabilities and limitations
+- Effective prompting framework
+- GitHub-Notion sync workflows
+
+### Week 6: Advanced Applications
+- Technical decision support
+- Documentation automation
+- Operational patterns + final project
+
+### Progress Log
+- ✅ **Day 1 (Jan 16, 2026)**: DDprOS system verification, first end-to-end task complete
+  - Merged [PR #6](https://github.com/Electrum1210/github-learning-journal/pull/6)
+  - Created `journal/phase-2-day-1.md`
+  - Verified Notion write access and GitHub-Notion sync workflow
+
+---
+
+## Phase 3: Cloudflare Environment (Weeks 7-8)
+
+**Timeline**: Jan 31 - Feb 13, 2026  
+**Status**: ⬜ UPCOMING
+
+### Training Objectives
+Operational ownership of DeDynamics hosting infrastructure and deployment processes.
+
+**Learning Areas**: Cloudflare Pages, Workers, DNS, analytics, security, CI/CD pipelines
+
+---
+
+## Complete Timeline
+
+1. ✅ **Phase 1: GitHub Fundamentals** (Dec 19 - Jan 5) — COMPLETE
+2. 🔄 **Phase 2: Max AI Integration** (Jan 17 - Jan 30) — IN PROGRESS
+3. ⬜ **Phase 3: Cloudflare Environment** (Jan 31 - Feb 13) — UPCOMING
+
+**Target**: Full operational readiness by mid-February 2026
